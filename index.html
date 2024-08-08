@@ -237,7 +237,7 @@ body {
       cursor: pointer;
       transition: background-color 0.3s ease;
 	  align-items: center;
-	  width:16%;
+	  width:13%;
     }
     .navigate-button:hover {
       background-color: #2b4a8f;
@@ -285,6 +285,7 @@ body {
 	<button class="navigate-button" onclick="navigateToPage2()">Les Taches</button>
 	<button class="navigate-button" onclick="navigateToPage3()">La productivite</button>
 	<button class="navigate-button" onclick="navigateToPage4()">Modifier TRC</button>
+	<button class="navigate-button" onclick="navigateToPage6()">Modifier TRC</button>
       <select id="daySelect" onchange="redirectToSite()">
 	  <option value="monday1" data-url="">CHOISIR LE JOUR</option>
       <option value="monday" data-url="https://aromaherbex.github.io/LUNDI/">LUNDI</option>
@@ -345,7 +346,9 @@ body {
     window.location.href = url;
   }
 }
-
+  function navigateToPag6() {
+      window.location.href = 'https://aromaherbex.github.io/whats/'; 
+    }
   function navigateToPage() {
       window.location.href = 'https://abdermb98.github.io/pointage/'; 
     }
